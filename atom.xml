@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sakura Wang</title>
+  <subtitle>Talk is chep.Show me the code</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-05-13T03:04:48.073Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>shaku</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Genymotion安装过程中问题排查</title>
+    <link href="http://yoursite.com/2016/05/12/Genymotion%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/"/>
+    <id>http://yoursite.com/2016/05/12/Genymotion安装过程中问题排查/</id>
+    <published>2016-05-12T13:02:53.000Z</published>
+    <updated>2016-05-13T03:04:48.073Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/01_zpslf03hhu3.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt; 在Android Studio2.0之前自带的模拟器速度非常慢，作为第三方的Genymotion由于启动速度较快一直在用它；&lt;strong&gt;随着AS2.0的发布虽然已经不再使用的Genymotion&lt;/strong&gt;。当时自己因为安装过程遇到的很多问题，故在这里留个记录，之前发在了贴吧上，不想被人拿去在CSDN博客上全文盗用，也算是让我有了重新再写博客想法的原因之一。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/02_zpsx0cqdpx5.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;br&gt;不推荐直接下直接包含虚拟机的版本，之前有些奇奇怪怪的问题没能解决，最后还是分开下载解决的。&lt;br&gt;程序本体直接官网下即可 : &lt;a href=&quot;https://www.genymotion.com/#!/download&quot; title=&quot;Genymotion&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Link&lt;/a&gt;&lt;br&gt;推荐VirtualBox单独到官网下载：&lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot; title=&quot;VirtualBox&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Link&lt;/a&gt;&lt;br&gt;一路安装略过不表，当时使用的系统：&lt;br&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/03_zps7szhkgi0.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;进入正题&quot;&gt;&lt;a href=&quot;#进入正题&quot; class=&quot;headerlink&quot; title=&quot;进入正题&quot;&gt;&lt;/a&gt;进入正题&lt;/h2&gt;&lt;h3 id=&quot;VirtualBox部分&quot;&gt;&lt;a href=&quot;#VirtualBox部分&quot; class=&quot;headerlink&quot; title=&quot;VirtualBox部分&quot;&gt;&lt;/a&gt;VirtualBox部分&lt;/h3&gt;&lt;p&gt;第一步要先确定虚拟机VBox没问题，启动一个模拟器发现启动失败。尝试如下修改：&lt;br&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/04_zpsxtkl2xhz.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/05_zpsrpjrpmul.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;配置完设置给模拟器&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/06_zpslel9ik1f.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;之后顺利启动,接下来检查Genymotion。&lt;/p&gt;
+&lt;h3 id=&quot;Genymotion部分&quot;&gt;&lt;a href=&quot;#Genymotion部分&quot; class=&quot;headerlink&quot; title=&quot;Genymotion部分&quot;&gt;&lt;/a&gt;Genymotion部分&lt;/h3&gt;&lt;p&gt;由于Genymotion会有好多种错误信息，这里我只列出我实际遇到的几种。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;virtualization engine not found plugin loading aborted&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Genymotion启动时找不到VirtualBox，这步卡了挺久，最后解决的办法是把Genymotion和VirtualBox先彻底卸载干净，然后彻底清理残留文件后直接先装最新版本VirtualBox然后再装Genymotion；最后Genymotion顺利启动。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;unable to start the virtual device&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;虚拟设备无法启动，删光Genymotion之前下载的虚拟设备文件，然后重新下载发现就正常了。&lt;br&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/07_zpssthia9er.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Unable to configure the network adapter for the virtual device&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;虚拟设备的网络问题，需要把模拟设备的网卡配置启用就可以了。&lt;br&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/08_zps1rpq2w8d.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;结尾&quot;&gt;&lt;a href=&quot;#结尾&quot; class=&quot;headerlink&quot; title=&quot;结尾&quot;&gt;&lt;/a&gt;结尾&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/00_zps5s3qtq4k.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;br&gt;至此Genymotion总算顺利启动，模拟设备也可以使用了。&lt;br&gt;至于对应在AS中安装Genymotion差距等操作没有这么多坑，故不在本文讨论范围内。而且由于AS2.0已经公布，自带的模拟器各方面都已经比Genymotion优秀，本人也不再使用Genymotion了。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/01_zpslf03hhu3.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt; 在Android Studio2.0之前自带的模拟器速度非常慢，作为第三方的Genymotion由于启动速度较快一直在用它；&lt;strong&gt;随着AS2.0的发布虽然已经不再使用的Genymotion&lt;/strong&gt;。当时自己因为安装过程遇到的很多问题，故在这里留个记录，之前发在了贴吧上，不想被人拿去在CSDN博客上全文盗用，也算是让我有了重新再写博客想法的原因之一。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="调试" scheme="http://yoursite.com/categories/%E8%B0%83%E8%AF%95/"/>
+    
+    
+      <category term="Genymotion" scheme="http://yoursite.com/tags/Genymotion/"/>
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="VirtualBox" scheme="http://yoursite.com/tags/VirtualBox/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/05/12/Hello-World/"/>
+    <id>http://yoursite.com/2016/05/12/Hello-World/</id>
+    <published>2016-05-12T04:58:16.000Z</published>
+    <updated>2016-05-13T05:10:56.655Z</updated>
+    
+    <content type="html">&lt;p&gt;记不清上次写博客已经多久了，从MSNspaces到lifelogger再到FC2，都留下过痕迹，他们有的消失有的被消失。之前的记录大多是生活琐碎，这次想定位成技术方向内容多一些，当然自己的能力可能还不够，也算是一种期望留下学习成长进步的记录。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;记不清上次写博客已经多久了，从MSNspaces到lifelogger再到FC2，都留下过痕迹，他们有的消失有的被消失。之前的记录大多是生活琐碎，这次想定位成技术方向内容多一些，当然自己的能力可能还不够，也算是一种期望留下学习成长进步的记录。&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
