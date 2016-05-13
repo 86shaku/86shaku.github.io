@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Genymotion,Android,VirtualBox," />
 
 
 
@@ -84,16 +84,26 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta name="description" content="前言 在Android Studio2.0之前自带的模拟器速度非常慢，作为第三方的Genymotion由于启动速度较快一直在用它；随着AS2.0的发布虽然已经不再使用的Genymotion。当时自己因为安装过程遇到的很多问题，故在这里留个记录，之前发在了贴吧上，不想被人拿去在CSDN博客上全文盗用，也算是让我有了重新再写博客想法的原因之一。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2016/05/06/hello-world/index.html">
+<meta property="og:title" content="Genymotion安装过程中问题排查">
+<meta property="og:url" content="http://yoursite.com/2016/05/12/Genymotion安装过程中问题排查/index.html">
 <meta property="og:site_name" content="Sakura Wang">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
-<meta property="og:updated_time" content="2016-05-12T07:53:07.103Z">
+<meta property="og:description" content="前言 在Android Studio2.0之前自带的模拟器速度非常慢，作为第三方的Genymotion由于启动速度较快一直在用它；随着AS2.0的发布虽然已经不再使用的Genymotion。当时自己因为安装过程遇到的很多问题，故在这里留个记录，之前发在了贴吧上，不想被人拿去在CSDN博客上全文盗用，也算是让我有了重新再写博客想法的原因之一。">
+<meta property="og:image" content="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/01_zpslf03hhu3.jpg">
+<meta property="og:image" content="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/02_zpsx0cqdpx5.jpg">
+<meta property="og:image" content="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/03_zps7szhkgi0.jpg">
+<meta property="og:image" content="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/04_zpsxtkl2xhz.jpg">
+<meta property="og:image" content="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/05_zpsrpjrpmul.jpg">
+<meta property="og:image" content="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/06_zpslel9ik1f.jpg">
+<meta property="og:image" content="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/07_zpssthia9er.jpg">
+<meta property="og:image" content="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/08_zps1rpq2w8d.jpg">
+<meta property="og:image" content="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/00_zps5s3qtq4k.jpg">
+<meta property="og:updated_time" content="2016-05-12T14:24:14.418Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta name="twitter:title" content="Genymotion安装过程中问题排查">
+<meta name="twitter:description" content="前言 在Android Studio2.0之前自带的模拟器速度非常慢，作为第三方的Genymotion由于启动速度较快一直在用它；随着AS2.0的发布虽然已经不再使用的Genymotion。当时自己因为安装过程遇到的很多问题，故在这里留个记录，之前发在了贴吧上，不想被人拿去在CSDN博客上全文盗用，也算是让我有了重新再写博客想法的原因之一。">
+<meta name="twitter:image" content="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/01_zpslf03hhu3.jpg">
 
 
 
@@ -111,7 +121,7 @@
   };
 </script>
 
-  <title> Hello World | Sakura Wang </title>
+  <title> Genymotion安装过程中问题排查 | Sakura Wang </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -281,7 +291,7 @@
             
             
               
-                Hello World
+                Genymotion安装过程中问题排查
               
             
           </h1>
@@ -293,19 +303,38 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-05-06T14:14:20+08:00" content="2016-05-06">
-              2016-05-06
+            <time itemprop="dateCreated" datetime="2016-05-12T21:02:53+08:00" content="2016-05-12">
+              2016-05-12
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/调试/" itemprop="url" rel="index">
+                    <span itemprop="name">调试</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/05/06/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/06/hello-world/" itemprop="commentsCount"></span>
+                <a href="/2016/05/12/Genymotion安装过程中问题排查/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/12/Genymotion安装过程中问题排查/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -328,15 +357,28 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.<br><a id="more"></a></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p><img src="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/01_zpslf03hhu3.jpg" alt="此处输入图片的描述"></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p> 在Android Studio2.0之前自带的模拟器速度非常慢，作为第三方的Genymotion由于启动速度较快一直在用它；<strong>随着AS2.0的发布虽然已经不再使用的Genymotion</strong>。当时自己因为安装过程遇到的很多问题，故在这里留个记录，之前发在了贴吧上，不想被人拿去在CSDN博客上全文盗用，也算是让我有了重新再写博客想法的原因之一。<br><a id="more"></a></p>
+<p><img src="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/02_zpsx0cqdpx5.jpg" alt="此处输入图片的描述"><br>不推荐直接下直接包含虚拟机的版本，之前有些奇奇怪怪的问题没能解决，最后还是分开下载解决的。<br>程序本体直接官网下即可 : <a href="https://www.genymotion.com/#!/download" title="Genymotion" target="_blank" rel="external">Link</a><br>推荐VirtualBox单独到官网下载：<a href="https://www.virtualbox.org/wiki/Downloads" title="VirtualBox" target="_blank" rel="external">Link</a><br>一路安装略过不表，当时使用的系统：<br><img src="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/03_zps7szhkgi0.jpg" alt="此处输入图片的描述"></p>
+<h2 id="进入正题"><a href="#进入正题" class="headerlink" title="进入正题"></a>进入正题</h2><h3 id="VirtualBox部分"><a href="#VirtualBox部分" class="headerlink" title="VirtualBox部分"></a>VirtualBox部分</h3><p>第一步要先确定虚拟机VBox没问题，启动一个模拟器发现启动失败。尝试如下修改：<br><img src="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/04_zpsxtkl2xhz.jpg" alt="此处输入图片的描述"></p>
+<p><img src="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/05_zpsrpjrpmul.jpg" alt="此处输入图片的描述"></p>
+<p>配置完设置给模拟器</p>
+<p><img src="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/06_zpslel9ik1f.jpg" alt="此处输入图片的描述"></p>
+<p>之后顺利启动,接下来检查Genymotion。</p>
+<h3 id="Genymotion部分"><a href="#Genymotion部分" class="headerlink" title="Genymotion部分"></a>Genymotion部分</h3><p>由于Genymotion会有好多种错误信息，这里我只列出我实际遇到的几种。</p>
+<blockquote>
+<p><strong>virtualization engine not found plugin loading aborted</strong></p>
+</blockquote>
+<p>Genymotion启动时找不到VirtualBox，这步卡了挺久，最后解决的办法是把Genymotion和VirtualBox先彻底卸载干净，然后彻底清理残留文件后直接先装最新版本VirtualBox然后再装Genymotion；最后Genymotion顺利启动。</p>
+<blockquote>
+<p><strong>unable to start the virtual device</strong></p>
+</blockquote>
+<p>虚拟设备无法启动，删光Genymotion之前下载的虚拟设备文件，然后重新下载发现就正常了。<br><img src="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/07_zpssthia9er.jpg" alt="此处输入图片的描述"></p>
+<blockquote>
+<p><strong>Unable to configure the network adapter for the virtual device</strong></p>
+</blockquote>
+<p>虚拟设备的网络问题，需要把模拟设备的网卡配置启用就可以了。<br><img src="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/08_zps1rpq2w8d.jpg" alt="此处输入图片的描述"></p>
+<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p><img src="http://i265.photobucket.com/albums/ii206/sakurafaw/blog/00_zps5s3qtq4k.jpg" alt="此处输入图片的描述"><br>至此Genymotion总算顺利启动，模拟设备也可以使用了。<br>至于对应在AS中安装Genymotion差距等操作没有这么多坑，故不在本文讨论范围内。而且由于AS2.0已经公布，自带的模拟器各方面都已经比Genymotion优秀，本人也不再使用Genymotion了。</p>
 
       
     </div>
@@ -356,18 +398,28 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Genymotion/" rel="tag">#Genymotion</a>
+          
+            <a href="/tags/Android/" rel="tag">#Android</a>
+          
+            <a href="/tags/VirtualBox/" rel="tag">#VirtualBox</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/05/12/new-post/" rel="next" title="hello world">
+                <i class="fa fa-chevron-left"></i> hello world
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/05/12/new-post/" rel="prev" title="hello world">
-                hello world <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -393,8 +445,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/05/06/hello-world/"
-           data-title="Hello World" data-url="http://yoursite.com/2016/05/06/hello-world/">
+      <div class="ds-thread" data-thread-key="2016/05/12/Genymotion安装过程中问题排查/"
+           data-title="Genymotion安装过程中问题排查" data-url="http://yoursite.com/2016/05/12/Genymotion安装过程中问题排查/">
       </div>
     
   </div>
@@ -546,7 +598,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#进入正题"><span class="nav-number">2.</span> <span class="nav-text">进入正题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#VirtualBox部分"><span class="nav-number">2.1.</span> <span class="nav-text">VirtualBox部分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Genymotion部分"><span class="nav-number">2.2.</span> <span class="nav-text">Genymotion部分</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结尾"><span class="nav-number">3.</span> <span class="nav-text">结尾</span></a></li></ol></div>
             
           </div>
         </section>
