@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-13T05:12:51.330Z</updated>
+  <updated>2016-05-13T09:34:13.340Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/05/12/Genymotion%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/"/>
     <id>http://yoursite.com/2016/05/12/Genymotion安装过程中问题排查/</id>
     <published>2016-05-12T13:02:53.000Z</published>
-    <updated>2016-05-13T05:12:51.330Z</updated>
+    <updated>2016-05-13T09:34:13.340Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/01_zpslf03hhu3.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt; 在Android Studio2.0之前自带的模拟器速度非常慢，作为第三方的Genymotion由于启动速度较快一直在用它；&lt;strong&gt;随着AS2.0的发布虽然已经不再使用的Genymotion&lt;/strong&gt;。当时自己因为安装过程遇到的很多问题，故在这里留个记录，之前发在了贴吧上，不想被人拿去在CSDN博客上全文盗用，也算是让我有了重新再写博客想法的原因之一。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -53,7 +53,7 @@
     
     </summary>
     
-      <category term="调试" scheme="http://yoursite.com/categories/%E8%B0%83%E8%AF%95/"/>
+      <category term="others" scheme="http://yoursite.com/categories/others/"/>
     
     
       <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
