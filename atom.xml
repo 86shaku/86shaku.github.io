@@ -56,9 +56,9 @@
       <category term="调试" scheme="http://yoursite.com/categories/%E8%B0%83%E8%AF%95/"/>
     
     
-      <category term="Genymotion" scheme="http://yoursite.com/tags/Genymotion/"/>
-    
       <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="Genymotion" scheme="http://yoursite.com/tags/Genymotion/"/>
     
       <category term="VirtualBox" scheme="http://yoursite.com/tags/VirtualBox/"/>
     
