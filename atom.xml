@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-21T22:47:48.833Z</updated>
+  <updated>2016-07-23T03:38:47.450Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,49 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>试用联通推出的骚扰电话提醒服务</title>
+    <link href="http://yoursite.com/2016/07/23/%E8%AF%95%E7%94%A8%E8%81%94%E9%80%9A%E6%8E%A8%E5%87%BA%E7%9A%84%E9%AA%9A%E6%89%B0%E7%94%B5%E8%AF%9D%E6%8F%90%E9%86%92%E6%9C%8D%E5%8A%A1/"/>
+    <id>http://yoursite.com/2016/07/23/试用联通推出的骚扰电话提醒服务/</id>
+    <published>2016-07-23T02:05:46.000Z</published>
+    <updated>2016-07-23T03:38:47.450Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/2016-07-23_100510_zpszjmbym9s.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;现在国内电话各种推销骚扰电话越来越多，这种识别服务真的挺重要的。&lt;/p&gt;
+&lt;p&gt;直接短信开通即可：&lt;br&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/Screenshot_20160723-100355_zpsokx7jsgt.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;实际提醒界面：&lt;br&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/Screenshot_20160723-095654_zpsc4ifefcm.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;用了几天下来感觉就是&lt;strong&gt;值得一用&lt;/strong&gt;，尤其对于我这种有洁癖倾向安装App很谨慎的人来说是很好的解决方案。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;优点&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;免费&lt;/li&gt;
+&lt;li&gt;不占内存&lt;/li&gt;
+&lt;li&gt;不占空间&lt;/li&gt;
+&lt;li&gt;阅后即焚（不会保存）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;缺点&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;偶尔有识别不准确的号码&lt;/li&gt;
+&lt;li&gt;只会提示不会自动拒接(在我看来虽然不方便但是把选择权交给用户)&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/2016-07-23_100510_zpszjmbym9s.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;现在国内电话各种推销骚扰电话越来越多，这种识别服务
+    
+    </summary>
+    
+      <category term="杂谈" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+      <category term="UNICOM" scheme="http://yoursite.com/tags/UNICOM/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Do not disturb模式内Repeat callers实际效果简单测试</title>
     <link href="http://yoursite.com/2016/05/20/Do%20not%20disturb%E6%A8%A1%E5%BC%8F%E5%86%85Repeat%20callers%E5%AE%9E%E9%99%85%E6%95%88%E6%9E%9C%E7%AE%80%E5%8D%95%E6%B5%8B%E8%AF%95/"/>
     <id>http://yoursite.com/2016/05/20/Do not disturb模式内Repeat callers实际效果简单测试/</id>
     <published>2016-05-20T04:02:49.000Z</published>
-    <updated>2016-05-21T22:47:48.833Z</updated>
+    <updated>2016-07-23T03:32:39.942Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/2016-05-21_194031_zpsaivhvudr.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;br&gt;&lt;a href=&quot;https://support.google.com/nexus/answer/6111295?hl=en&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;strong&gt;&lt;em&gt;(Nexus Help:Notification and interruption settings)&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;Do not disturb模式相当于功能机时代内置的情景模式，设定当中也提      供多种逻辑来启动对应的勿扰模式，只不过精简了很多，提供了三种模式可以根据具体需要自行设定。其中Priority only模式过滤规则最多，可以有更灵活的过滤逻辑，当中的Repeat callers选择，官方说明有些许歧义理解可能性，所以自己动手简单验证一下。&lt;/p&gt;
 &lt;ul&gt;
@@ -42,7 +80,7 @@
     
     </summary>
     
-      <category term="笔记" scheme="http://yoursite.com/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="杂谈" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88/"/>
     
     
       <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
@@ -54,7 +92,7 @@
     <link href="http://yoursite.com/2016/05/12/Genymotion%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/"/>
     <id>http://yoursite.com/2016/05/12/Genymotion安装过程中问题排查/</id>
     <published>2016-05-12T13:02:53.000Z</published>
-    <updated>2016-05-13T09:34:13.340Z</updated>
+    <updated>2016-07-23T03:32:25.049Z</updated>
     
     <content type="html">&lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/01_zpslf03hhu3.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
 &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt; 在Android Studio2.0之前自带的模拟器速度非常慢，作为第三方的Genymotion由于启动速度较快一直在用它；&lt;strong&gt;随着AS2.0的发布虽然已经不再使用的Genymotion&lt;/strong&gt;。当时自己因为安装过程遇到的很多问题，故在这里留个记录，之前发在了贴吧上，不想被人拿去在CSDN博客上全文盗用，也算是让我有了重新再写博客想法的原因之一。&lt;br&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
@@ -87,7 +125,7 @@
     
     </summary>
     
-      <category term="others" scheme="http://yoursite.com/categories/others/"/>
+      <category term="杂谈" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88/"/>
     
     
       <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
@@ -103,7 +141,7 @@
     <link href="http://yoursite.com/2016/05/12/Hello-World/"/>
     <id>http://yoursite.com/2016/05/12/Hello-World/</id>
     <published>2016-05-12T04:58:16.000Z</published>
-    <updated>2016-05-14T09:59:21.319Z</updated>
+    <updated>2016-07-23T03:38:52.595Z</updated>
     
     <content type="html">&lt;blockquote&gt;
 &lt;p&gt;MSN spaces&lt;br&gt;lifelogger&lt;br&gt;FC2&lt;br&gt;more…&lt;/p&gt;
@@ -120,6 +158,8 @@
 
     
     </summary>
+    
+      <category term="杂谈" scheme="http://yoursite.com/categories/%E6%9D%82%E8%B0%88/"/>
     
     
   </entry>
