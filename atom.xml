@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-23T03:38:47.450Z</updated>
+  <updated>2017-01-31T10:31:48.214Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android 7.1.1解决国内链接wifi叉子提示</title>
+    <link href="http://yoursite.com/2017/01/31/wifi/"/>
+    <id>http://yoursite.com/2017/01/31/wifi/</id>
+    <published>2017-01-31T09:53:54.000Z</published>
+    <updated>2017-01-31T10:31:48.214Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/-1_zpsbvjkvsnt.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;一直没等到OTA的7.1.1，于是自己线刷升完，发现wifi多了一个叉子，搜索到的信息是Google在7.1后更改了验证方式，不过&lt;a href=&quot;https://www.v2ex.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;V2EX&lt;/a&gt; 提供一个专用的Captive Portal Server地址用来解决此问题：只需要打开USB调试后数据线连接上电脑，然后在adb命令行中输入一行配置代码修改验证地址即可。&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;adb shell &amp;quot;settings put global captive_portal_https_url https://captive.v2ex.co/generate_204&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;——————&lt;br&gt;PS:今年用上了机械键盘，一步到位上了大F，鼠标也升级成了G602。也算拔草了；另外考虑把域名从godaddy转出中。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://i265.photobucket.com/albums/ii206/sakurafaw/blog/-1_zpsbvjkvsnt.jpg&quot; alt=&quot;此处输入图片的描述&quot;&gt;&lt;/p&gt;
+&lt;p&gt;一直没等到OTA的7.1.1，于是自己线刷升完，发现w
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="Google" scheme="http://yoursite.com/tags/Google/"/>
+    
+  </entry>
   
   <entry>
     <title>试用联通推出的骚扰电话提醒服务</title>
